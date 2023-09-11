@@ -3,16 +3,44 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-}
-.sketchBoxes{
-    display:flex;
-    width:400px;
-    height: 400px;
-    flex-wrap: wrap;
     
 }
+#sketchBoxes{
+    display:flex;
+    max-width:400px;
+    max-height: 400px;
+    flex-wrap: wrap;
+    border:0.1px solid black;
+}
 .box{
+    flex-wrap: wrap;
+    display:flex;
     width:25px;
     height:25px;
-    border:1px solid black;
+    
 }
+.theButtons{
+    display:flex;
+    flex-direction: column;
+    gap:25px;
+}
+.changedColor{
+    background-color: aqua;
+}
+
+.btn,.clear{
+    display: flex;
+    margin-right:30px;
+    height:60px;
+    width:360px;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    font-size: 25px;
+    color:brown;
+}
+button:hover{
+    font-size: 35px;
+}
+ 
