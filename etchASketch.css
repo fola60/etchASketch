@@ -15,8 +15,8 @@ body{
 .box{
     flex-wrap: wrap;
     display:flex;
-    width:25px;
-    height:25px;
+     width:25px;
+    height:25px; 
     
 }
 .theButtons{
@@ -25,7 +25,7 @@ body{
     gap:25px;
 }
 .changedColor{
-    background-color: aqua;
+    background-color: #00ff00;
 }
 
 .btn,.clear{
